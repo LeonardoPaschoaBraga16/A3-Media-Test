@@ -9,6 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^4.2.6",
+    "@faker-js/faker": "^9.7.0",
     "astro": "^5.7.10",
     "tinacms": "^2.7.5"
   },

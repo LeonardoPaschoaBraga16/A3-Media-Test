@@ -1,0 +1,19 @@
+---
+// IMPORTS
+import Template1Layout from '../../layouts/Template1Layout.astro';
+import { getCollection } from 'astro:content';
+
+// getStaticPaths: gera as rotas estáticas com base nos slugs
+export async function getStaticPaths() {
+  const pages = await getCollection('template1');
+  return pages.map((page) => ({
+    params: { slug: page.slug },
+    props: { page },
+  }));
+}
+
+// Astro.props vem de getStaticPaths
+const { page } = Astro.props;
+---
+
+<Template1Layout page={page} />

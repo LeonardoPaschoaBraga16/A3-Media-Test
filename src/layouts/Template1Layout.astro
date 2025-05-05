@@ -1,0 +1,15 @@
+---
+// Recebe os dados da página como prop
+const { page } = Astro.props;
+const { title, body } = page.data;
+---
+
+<html>
+  <head>
+    <title>{title}</title>
+  </head>
+  <body>
+    <h1>{title}</h1>
+    <div set:html={body} />
+  </body>
+</html>

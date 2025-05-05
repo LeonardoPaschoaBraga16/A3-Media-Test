@@ -31,27 +31,11 @@ export default defineConfig({
       {
         name: "post",
         label: "Posts",
-        path: "content/posts",
+        path: "src/content/template1",
         fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "datetime",
-            name: "posted",
-            label: "Date Posted",
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
+          {type: "string", name: "title", label: "Title", isTitle: true, required: true, },
+          {type: "datetime", name: "posted", label: "Date Posted", required: true, },
+          {type: "rich-text", name: "body", label: "Body", isBody: true, },
         ],
       },
     ],
