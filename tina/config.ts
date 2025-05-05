@@ -29,8 +29,8 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
+        name: "template1",
+        label: "Template 1 Pages",
         path: "src/content/template1",
         fields: [
           {type: "string", name: "title", label: "Title", isTitle: true, required: true, },

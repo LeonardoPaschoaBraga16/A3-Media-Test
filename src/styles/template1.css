@@ -1,0 +1,105 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    all: initial;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.body{
+    padding: 32px 16px;
+    max-width: 48rem;
+    align-self: center;
+    align-items: center;
+}
+
+#ad {
+    font-size: .875rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.body > div {
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.body > div > a {
+    width: fit-content;
+}
+
+.aspect-radio {
+    aspect-ratio: 16 / 9;
+}
+
+.aspect-radio img {
+    width: 100%;
+}
+
+.button {
+    padding: 12px 24px;
+    background-color: #00A63E;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.button:hover{
+    transition: .2s;
+    background-color: #008236;
+}
+
+.end p {
+    line-height: 1.6rem;
+    text-align: justify;
+    margin-bottom: 1.6rem;
+}
+
+.footer {
+    background-color: #F3F4F6;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.footer > p {
+    max-width: 48rem;
+    font-size: .950rem;
+    color: #313131;
+    margin-bottom: 1rem;
+    line-height: calc(1.25 / .875);
+}
+
+footer {
+    padding: 1rem 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer a{
+    text-decoration: unset;
+    color: #4a5565;
+    cursor: pointer;
+}
+
+footer a:hover {
+    transition: .2s;
+    color: #111927;
+}
