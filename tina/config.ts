@@ -38,6 +38,16 @@ export default defineConfig({
           {type: "rich-text", name: "body", label: "Body", isBody: true, },
         ],
       },
+      {
+        name: "template2",
+        label: "Template 2 Pages",
+        path: "src/content/template2",
+        fields: [
+          { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+          { type: "datetime", name: "posted", label: "Date Posted", required: true },
+          { type: "rich-text", name: "body", label: "Body", isBody: true }
+        ]
+      },
     ],
   },
 });

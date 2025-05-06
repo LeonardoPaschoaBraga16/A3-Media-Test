@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    align-items: center;
+}
+
+#band {
+    background-color: #d9877c;
+    width: 100%;
+    height: 5px;
+}
+
+.start {
+    align-items: center;
+    width: 100%;
+    background-image: url(https://glucosecontrolguide.com/fb/sgs/vsl3/prn-ca1/h1l1//images/light-background-fade.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.start h1 {
+    font-family: "Montserrat", sans-serif;;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.container h1 {
+    margin: 5px 0;
+}
+
+.container, .references {
+    width: 60rem;
+}
+
+.references > h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.video {
+    align-items: center;
+}
+
+.video img {
+    position: absolute;
+}
+
+.video video {
+    width: 100%;
+}
+
+.references {
+    text-align: center;
+    margin-top: 2rem;
+    gap: 40px;
+}
+
+.columns {
+    display: flex;
+    text-align: start;
+    gap: 45px;
+    font-size: 11px;
+    margin-bottom: 1rem;
+}
+
+.columns > ul > li {
+    margin-bottom: 3px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer > .foot-list {
+    display: flex;
+    gap: 10px;
+}
